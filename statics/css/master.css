@@ -1,0 +1,103 @@
+/*文档*/
+html, body{font-family: "Microsoft YaHei" !important; background: #EEEEEE;}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{font-family: "Microsoft YaHei" !important;}
+label { font-weight: normal;}
+.fs12{font-size: 12px;}
+.mt0{margin-top: 0px;}
+.mr0{margin-right: 0px;}
+.mb0{margin-bottom: 0px;}
+.ml0{margin-left: 0px;}
+.mb-1{ margin-bottom: -1px;}
+.disno{display: none;}
+
+.red{color: #F80000;}
+.blue{color: #428BCA;}
+.orange{color: #FF6600;}
+.green{color: #008000;}
+.golds{color: #AA6708;}
+
+.blank5{ line-height: 0px; height: 5px;}
+.alert .label{ vertical-align: baseline;}
+
+.modal{}
+
+/* .navbar-brand{ color:#FFFFFF !important;} */
+.cs_nav-sub .breadcrumb{margin-bottom: 10px;}
+.cs_nav-sub .breadcrumb li.active a{ color: #FF3300 !important;}
+
+.cs_navbar .v1{ margin-top: 12px;}
+.cs_navbar .v2{ margin-top: 12px; padding-left: 8px;}
+.cs_navbar .v3{}
+.cs_navbar .cs_navbar_btn-group{ margin-top: -3px;}
+
+.form-group{margin-bottom: 12px !important;}
+.cs_form-group_st01{ margin-bottom: 5px !important;}
+.cs_form-group_st01 label{ padding-top: 0px !important;}
+
+.sc_fithd_btn{padding: 4px 12px;}
+.sc_readonly-nbg{cursor: pointer !important; background-color: #FFF !important;}
+.sc_label_tb01{ font-weight: bold; color: #FF3300;}
+.sc_label_tb02{ color: #FF3300;}
+.sc_spline01{ border-top: 2px solid #E3E3E3;}
+
+.sc_panel_drop_st01{ position: absolute; left: 54px; top: 33px; z-index: 5;}
+.sc_panel_drop_st01 .sc_panel_drop_vc{ background: #FFFFFF; border: 1px solid #CCC; border-bottom-left-radius: 4px; border-bottom-right-radius: 4px; padding: 2px;
+										-webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+										-moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+										box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+										}
+.sc_mselect_st01{}
+.sc_mselect_st01 ul{ padding: 0px; margin: 0px;}
+.sc_mselect_st01 ul li{ list-style: none; padding: 0px; margin: 0px; line-height: 26px;}
+.sc_mselect_st01 .sc_mselect_data1{ float: left; width: 40%; background: #F1F1F1;}
+.sc_mselect_st01 .sc_mselect_data1 ul li{ border-bottom: 1px solid #E1E1E1; border-top: 1px solid #FFFFFF; padding-left: 10px;}
+.sc_mselect_st01 .sc_mselect_data1 ul li:first-child{border-top: none;}
+.sc_mselect_st01 .sc_mselect_data1 ul li:last-child{border-bottom: none;}
+.sc_mselect_st01 .sc_mselect_data1 ul li.on{ background: #FFFFFF;}
+.sc_mselect_st01 .sc_mselect_data2{ float: left; width: 60%; background: #FFFFFF;}
+.sc_mselect_st01 .sc_mselect_data2 ul{}
+.sc_mselect_st01 .sc_mselect_data2 ul li{ border-bottom: 1px solid #FFFFFF; border-top: 1px solid #FFFFFF; padding-left: 10px;}
+.sc_mselect_st01 .sc_mselect_data2 ul li:hover{ color: #428BCA; cursor: pointer;}
+.sc_mselect_st01 .sc_mselect_data2 ul li:first-child{border-top: none;}
+
+.cs_table_panel-scroll{ overflow-x: hidden; margin-bottom: 10px;}
+.cs_table-gray{ background: #f9f9f9;}
+.cs_table-gray thead{ background: #FFFFFF;}
+
+.cs_table-st1{ margin-bottom: 10px; position: relative;}
+
+/*.cs_text-clip{text-overflow:ellipsis;}*/
+.cs_table-st1 tr:hover td{ background: #ECFBFF !important;} 
+.cs_table-st1 th{font-size: 13px !important; white-space: nowrap; overflow:hidden; text-overflow:ellipsis;}
+.cs_table-st1 td{font-size: 13px !important; white-space: nowrap; overflow:hidden; text-overflow:ellipsis;}
+.cs_table-st1 td .txt_fixed_lb{ cursor: pointer;}
+.cs_table-st1 td .txt_fixed{ width: 80px; overflow:hidden; text-overflow:ellipsis; cursor: pointer;}
+.cs_table-st1 td .txt_fixed2{ width: 380px; overflow:hidden; text-overflow:ellipsis; cursor: pointer;}
+
+.cs_table-st1 .cs_listorder{width: auto; height: 22px; padding: 3px 6px;}
+.cs_table-st1 .cs_table-subtr{ color: #999999; background: #FFFFFF;}
+.cs_table-st1 .cs_table-subtr a{ color: #999999;}
+
+.tablesorter th.header{ background: url(../images/sorter_bg.gif) no-repeat right center;}
+.tablesorter th.header_sortup{ background: url(../images/sorter_asc.gif) no-repeat right center;}
+.tablesorter th.header_sortdown{ background: url(../images/sorter_desc.gif) no-repeat right center;}
+
+/*排班表*/
+.cs_hdti-pbedit{ padding: 8px; margin-bottom: 0px;}
+.cs_hdti-pbedit .i1{ font-size: 22px; line-height: 32px;}
+.month_h .cur_month{ color: #F30; font-weight: bold;}
+.cs_table-pbedit tr.cellst2{background: #EEE !important;}
+.cs_table-pbedit td{ padding: 3px !important;}
+.cs_table-pbedit .pbinput_name{ padding: 2px 2px; width: 56px; height: 28px; text-align: center; font-size: 12px;}
+.cs_table-pbedit .pbinput_button{ padding: 1px 2px; width: 42px; height: 28px; text-align: center; font-size: 12px;}
+.cs_table-pbedit .pbinput{ padding: 1px 2px; width: 30px; height: 28px; text-align: center; font-size: 12px;}
+
+.pagelist{ text-align:center;}
+
+.jumbotron{ background: #FFFFFF;}
+#signpage .container{max-width: 330px; padding: 15px; margin: 0px auto; padding-bottom: 40px; padding-top: 60px;}
+#signpage .container .login_panel .form-control{height: auto; padding: 10px;}
+#signpage .container .login_panel .i1{margin-bottom: -1px; border-bottom-left-radius: 0; border-bottom-right-radius: 0;}
+#signpage .container .login_panel .i2{border-top-left-radius: 0; border-top-right-radius: 0;}
+#signpage .container .login_panel .sc_form-signin_group01{margin-top: 8px;}
+#signpage .container .login_panel .sc_form-signin_group01 .btn{ padding: 2px;}
